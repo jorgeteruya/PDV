@@ -12,8 +12,7 @@ public class Teste {
 		
 		cliente.compras.add(compra);
 		
-		System.out.println(cliente.obterValorTotal());
-
+		System.out.println(compra.getCompra());
 	}
 
 }

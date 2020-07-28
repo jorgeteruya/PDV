@@ -1,12 +1,29 @@
 
 public class Produto {
 
-	String nome;
+	private String nome;
 	int quantidade;
-	double preco;
+	private double preco;
 	
 	Produto(String nome, double preco){
 		this.nome = nome;
 		this.preco = preco;
 	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
 }
