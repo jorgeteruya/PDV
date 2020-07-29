@@ -25,10 +25,9 @@ public class Compra {
 	}
 
 	public String getCompra() {
-		
-	
 		for(Item item : itens) {
-			System.out.println(" " + item.getProduto().getNome());
+			System.out.print(item.getProduto().getNome() + " - R$" );
+			System.out.println(item.getProduto().getPreco());
 		}
 		return "\nCompra com " + itens.size() + " iten(s) e valor total de R$ " + obterValorTotal();
 	}
